@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65fb645e-0259-46e3-98be-0fd3c44d5631" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/facade/TeaFacade.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/facade/TeaFacadeDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Adapter/AdapterPatternDemo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Adapter/DBBehavior.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Adapter/DatabaseAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Adapter/RecordsAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Adapter/RecordsBehavior.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Adapter/Employee.java" afterPath="$PROJECT_DIR$/src/Adapter/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/src/Adapter/Database.java" afterPath="$PROJECT_DIR$/src/Adapter/Database.java" />
       <change beforePath="$PROJECT_DIR$/src/Adapter/Records.java" afterPath="$PROJECT_DIR$/src/Adapter/Records.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,71 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Adapter/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tea.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/Tea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeaCup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/TeaCup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Water.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/Water.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeaFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/TeaFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeaFacadeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/TeaFacadeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Adapter/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#0#827#0" expanded="true" />
               </folding>
@@ -90,24 +33,188 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Records.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Adapter/Records.java">
+      <file leaf-file-name="AdapterPatternDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/AdapterPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <element signature="e#0#687#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeaInfuser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/facade/TeaInfuser.java">
+      <file leaf-file-name="RecordsBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/RecordsBehavior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/DBBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Records.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/Records.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/Adapter" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/Adapter">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Adapter</OriginalElement>
+              <nodes>
+                <node x="10.5" y="332.0">Adapter.Database</node>
+                <node x="191.5" y="198.0">Adapter.DBBehavior</node>
+                <node x="584.5" y="343.0">Adapter.Records</node>
+                <node x="556.6188725490197" y="510.0">Adapter.RecordsAdapter</node>
+                <node x="67.5" y="499.0">Adapter.DatabaseAdapter</node>
+                <node x="460.5" y="187.0">Adapter.RecordsBehavior</node>
+                <node x="0.0" y="639.0">Adapter.AdapterPatternDemo</node>
+                <node x="356.7720588235294" y="0.0">Adapter.Employee</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Adapter.RecordsAdapter" target="Adapter.Records">
+                  <point x="31.125" y="-36.5" />
+                  <point x="712.2438725490197" y="479.0" />
+                  <point x="754.75" y="479.0" />
+                  <point x="56.75" y="47.5" />
+                </edge>
+                <edge source="Adapter.DatabaseAdapter" target="Adapter.Employee">
+                  <point x="-85.125" y="-47.5" />
+                  <point x="95.875" y="479.0" />
+                  <point x="0.0" y="479.0" />
+                  <point x="0.0" y="137.0" />
+                  <point x="368.8345588235294" y="137.0" />
+                  <point x="-84.4375" y="58.5" />
+                </edge>
+                <edge source="Adapter.DatabaseAdapter" target="Adapter.RecordsBehavior">
+                  <point x="85.125" y="-47.5" />
+                  <point x="266.125" y="479.0" />
+                  <point x="450.5220588235294" y="479.0" />
+                  <point x="450.5220588235294" y="312.0" />
+                  <point x="517.25" y="312.0" />
+                  <point x="-56.75" y="47.5" />
+                </edge>
+                <edge source="Adapter.Records" target="Adapter.Employee">
+                  <point x="0.0" y="-47.5" />
+                  <point x="698.0" y="312.0" />
+                  <point x="710.9522058823529" y="312.0" />
+                  <point x="710.9522058823529" y="157.0" />
+                  <point x="489.4595588235294" y="157.0" />
+                  <point x="36.1875" y="58.5" />
+                </edge>
+                <edge source="Adapter.Database" target="Adapter.Employee">
+                  <point x="-113.66666666666674" y="-58.5" />
+                  <point x="67.33333333333326" y="312.0" />
+                  <point x="129.56372549019602" y="312.0" />
+                  <point x="129.56372549019602" y="147.0" />
+                  <point x="392.9595588235294" y="147.0" />
+                  <point x="-60.3125" y="58.5" />
+                </edge>
+                <edge source="Adapter.DBBehavior" target="Adapter.Employee">
+                  <point x="0.0" y="-36.5" />
+                  <point x="316.0" y="167.0" />
+                  <point x="441.2095588235294" y="167.0" />
+                  <point x="-12.0625" y="58.5" />
+                </edge>
+                <edge source="Adapter.RecordsAdapter" target="Adapter.DBBehavior">
+                  <point x="-93.375" y="-36.5" />
+                  <point x="587.7438725490197" y="479.0" />
+                  <point x="465.1470588235294" y="479.0" />
+                  <point x="465.1470588235294" y="302.0" />
+                  <point x="378.25" y="302.0" />
+                  <point x="62.25" y="36.5" />
+                </edge>
+                <edge source="Adapter.Records" target="Adapter.RecordsBehavior">
+                  <point x="-75.66666666666669" y="-47.5" />
+                  <point x="622.3333333333333" y="312.0" />
+                  <point x="630.75" y="312.0" />
+                  <point x="56.75" y="47.5" />
+                </edge>
+                <edge source="Adapter.RecordsAdapter" target="Adapter.Employee">
+                  <point x="93.375" y="-36.5" />
+                  <point x="774.4938725490197" y="479.0" />
+                  <point x="822.0" y="479.0" />
+                  <point x="822.0" y="137.0" />
+                  <point x="537.7095588235294" y="137.0" />
+                  <point x="84.4375" y="58.5" />
+                </edge>
+                <edge source="Adapter.RecordsBehavior" target="Adapter.Employee">
+                  <point x="0.0" y="-47.5" />
+                  <point x="574.0" y="167.0" />
+                  <point x="465.3345588235294" y="167.0" />
+                  <point x="12.0625" y="58.5" />
+                </edge>
+                <edge source="Adapter.DatabaseAdapter" target="Adapter.Database">
+                  <point x="-28.375" y="-47.5" />
+                  <point x="152.625" y="469.0" />
+                  <point x="95.75" y="469.0" />
+                  <point x="-85.25" y="58.5" />
+                </edge>
+                <edge source="Adapter.Database" target="Adapter.DBBehavior">
+                  <point x="113.66666666666663" y="-58.5" />
+                  <point x="294.66666666666663" y="312.0" />
+                  <point x="253.75" y="312.0" />
+                  <point x="-62.25" y="36.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="312.0" y="494.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adapter/DatabaseAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,6 +224,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -136,7 +244,13 @@
         <option value="$PROJECT_DIR$/src/facade/TeaFacade.java" />
         <option value="$PROJECT_DIR$/src/facade/TeaFacadeDemo.java" />
         <option value="$PROJECT_DIR$/src/Adapter/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/DBBehavior.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/RecordsBehavior.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/RecordsAdapter.java" />
         <option value="$PROJECT_DIR$/src/Adapter/Records.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/DatabaseAdapter.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/Database.java" />
+        <option value="$PROJECT_DIR$/src/Adapter/AdapterPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -348,31 +462,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518880372328</updated>
-      <workItem from="1518880378469" duration="3060000" />
+      <workItem from="1518880378469" duration="6920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3060000" />
+    <option name="totallyTimeSpent" value="6920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="30" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21357143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -387,6 +502,36 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21357143" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -395,18 +540,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Adapter/Database.java</url>
+          <line>41</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Adapter/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/facade/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -419,14 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/facade/TeaInfuser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -455,23 +593,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/facade/TeaInfuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/RecordsBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/DBBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/Records.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/DatabaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/RecordsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adapter/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#827#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/Records.java">
+    <entry file="file://$PROJECT_DIR$/src/Adapter/AdapterPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#687#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Adapter</OriginalElement>
+          <nodes>
+            <node x="10.5" y="332.0">Adapter.Database</node>
+            <node x="191.5" y="198.0">Adapter.DBBehavior</node>
+            <node x="584.5" y="343.0">Adapter.Records</node>
+            <node x="556.6188725490197" y="510.0">Adapter.RecordsAdapter</node>
+            <node x="67.5" y="499.0">Adapter.DatabaseAdapter</node>
+            <node x="460.5" y="187.0">Adapter.RecordsBehavior</node>
+            <node x="0.0" y="639.0">Adapter.AdapterPatternDemo</node>
+            <node x="356.7720588235294" y="0.0">Adapter.Employee</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Adapter.RecordsAdapter" target="Adapter.Records">
+              <point x="31.125" y="-36.5" />
+              <point x="712.2438725490197" y="479.0" />
+              <point x="754.75" y="479.0" />
+              <point x="56.75" y="47.5" />
+            </edge>
+            <edge source="Adapter.DatabaseAdapter" target="Adapter.Employee">
+              <point x="-85.125" y="-47.5" />
+              <point x="95.875" y="479.0" />
+              <point x="0.0" y="479.0" />
+              <point x="0.0" y="137.0" />
+              <point x="368.8345588235294" y="137.0" />
+              <point x="-84.4375" y="58.5" />
+            </edge>
+            <edge source="Adapter.DatabaseAdapter" target="Adapter.RecordsBehavior">
+              <point x="85.125" y="-47.5" />
+              <point x="266.125" y="479.0" />
+              <point x="450.5220588235294" y="479.0" />
+              <point x="450.5220588235294" y="312.0" />
+              <point x="517.25" y="312.0" />
+              <point x="-56.75" y="47.5" />
+            </edge>
+            <edge source="Adapter.Records" target="Adapter.Employee">
+              <point x="0.0" y="-47.5" />
+              <point x="698.0" y="312.0" />
+              <point x="710.9522058823529" y="312.0" />
+              <point x="710.9522058823529" y="157.0" />
+              <point x="489.4595588235294" y="157.0" />
+              <point x="36.1875" y="58.5" />
+            </edge>
+            <edge source="Adapter.Database" target="Adapter.Employee">
+              <point x="-113.66666666666674" y="-58.5" />
+              <point x="67.33333333333326" y="312.0" />
+              <point x="129.56372549019602" y="312.0" />
+              <point x="129.56372549019602" y="147.0" />
+              <point x="392.9595588235294" y="147.0" />
+              <point x="-60.3125" y="58.5" />
+            </edge>
+            <edge source="Adapter.DBBehavior" target="Adapter.Employee">
+              <point x="0.0" y="-36.5" />
+              <point x="316.0" y="167.0" />
+              <point x="441.2095588235294" y="167.0" />
+              <point x="-12.0625" y="58.5" />
+            </edge>
+            <edge source="Adapter.RecordsAdapter" target="Adapter.DBBehavior">
+              <point x="-93.375" y="-36.5" />
+              <point x="587.7438725490197" y="479.0" />
+              <point x="465.1470588235294" y="479.0" />
+              <point x="465.1470588235294" y="302.0" />
+              <point x="378.25" y="302.0" />
+              <point x="62.25" y="36.5" />
+            </edge>
+            <edge source="Adapter.Records" target="Adapter.RecordsBehavior">
+              <point x="-75.66666666666669" y="-47.5" />
+              <point x="622.3333333333333" y="312.0" />
+              <point x="630.75" y="312.0" />
+              <point x="56.75" y="47.5" />
+            </edge>
+            <edge source="Adapter.RecordsAdapter" target="Adapter.Employee">
+              <point x="93.375" y="-36.5" />
+              <point x="774.4938725490197" y="479.0" />
+              <point x="822.0" y="479.0" />
+              <point x="822.0" y="137.0" />
+              <point x="537.7095588235294" y="137.0" />
+              <point x="84.4375" y="58.5" />
+            </edge>
+            <edge source="Adapter.RecordsBehavior" target="Adapter.Employee">
+              <point x="0.0" y="-47.5" />
+              <point x="574.0" y="167.0" />
+              <point x="465.3345588235294" y="167.0" />
+              <point x="12.0625" y="58.5" />
+            </edge>
+            <edge source="Adapter.DatabaseAdapter" target="Adapter.Database">
+              <point x="-28.375" y="-47.5" />
+              <point x="152.625" y="469.0" />
+              <point x="95.75" y="469.0" />
+              <point x="-85.25" y="58.5" />
+            </edge>
+            <edge source="Adapter.Database" target="Adapter.DBBehavior">
+              <point x="113.66666666666663" y="-58.5" />
+              <point x="294.66666666666663" y="312.0" />
+              <point x="253.75" y="312.0" />
+              <point x="-62.25" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="312.0" y="494.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author boonjv
  */
-public class Records {
+public class Records implements RecordsBehavior {
 
-    private ArrayList employees; //Stores the employees
+    private ArrayList<Employee> employees; //Stores the employees
 
     public Records() {
-        employees = new ArrayList();
+        employees = new ArrayList<Employee>();
     }
 
     public void insert(Employee employee) {
