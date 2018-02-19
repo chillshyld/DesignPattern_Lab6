@@ -3,7 +3,7 @@ package Adapter;
 import java.util.Vector;
 
 public class DatabaseAdapter implements RecordsBehavior {
-    private Database database;
+    private DBBehavior database;
 
     public DatabaseAdapter() {
         this.database = new Database();
@@ -22,9 +22,9 @@ public class DatabaseAdapter implements RecordsBehavior {
 
     @Override
     public boolean isEmployee(long emp_num) {
-        Vector<Employee> employeeVect = this.database.getEmployeesDatabase();
+        Vector<Employee> employeeVect = (new Database()).getEmployeesDatabase();
 
-        for(int i = 0;i < database.getTotalEmployee(); i++){
+        for(int i = 0;i < employeeVect.size(); i++){
             if (employeeVect.elementAt(i).getEmpNum() == emp_num){
                 return true;
             }

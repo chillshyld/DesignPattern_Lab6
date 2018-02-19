@@ -39,5 +39,9 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
-  
+
+    @Override
+    public String toString() {
+        return "id: " + this.getEmpNum() +  ", name: " + this.getName() + ", lastname: " + this.getSurname() + ", salary: " + this.getSalary() + "\n";
+    }
 }

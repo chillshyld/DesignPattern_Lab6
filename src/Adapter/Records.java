@@ -31,5 +31,10 @@ public class Records implements RecordsBehavior {
         //Code to find employee
         return false;
     }
-    
+
+
+    @Override
+    public ArrayList<Employee> printAllEmployee() {
+        return this.employees;
+    }
 }
