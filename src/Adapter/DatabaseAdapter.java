@@ -1,6 +1,7 @@
 package Adapter;
 
 import java.util.Vector;
+import java.util.ArrayList;
 
 public class DatabaseAdapter implements RecordsBehavior {
     private DBBehavior database;
@@ -31,4 +32,12 @@ public class DatabaseAdapter implements RecordsBehavior {
         }
         return false;
     }
+
+    @Override
+    public void printAllEmployee(){
+        this.database.printAllEmployee();
+    }
+
+
+
 }

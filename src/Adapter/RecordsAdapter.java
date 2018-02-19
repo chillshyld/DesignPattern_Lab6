@@ -17,4 +17,8 @@ public class RecordsAdapter implements DBBehavior {
         this.records.remove(emp_num);
 
     }
+
+    public void printAllEmployee(){
+        this.records.printAllEmployee();
+    }
 }

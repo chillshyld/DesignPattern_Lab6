@@ -21,20 +21,29 @@ public class Records implements RecordsBehavior {
 
     public void insert(Employee employee) {
         //Code to insert employee
+        this.employees.add(employee);
     }
 
     public void remove(long emp_num) {
         //Code to remove employee
+        this.employees.remove((int) (emp_num - 1));
     }
 
     public boolean isEmployee(long emp_num) {
         //Code to find employee
+        for (Employee emp: this.employees){
+            if (emp.getEmpNum() == emp_num){
+                return true;
+            }
+        }
         return false;
     }
 
 
     @Override
-    public ArrayList<Employee> printAllEmployee() {
-        return this.employees;
+    public void printAllEmployee() {
+        for(Employee emp:this.employees){
+            System.out.println("id: " + emp.getEmpNum() + ",name: " + emp.getName() + ",surname: " + emp.getSurname() + ",salary: " + emp.getSalary());
+        }
     }
 }

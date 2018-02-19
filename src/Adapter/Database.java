@@ -31,9 +31,13 @@ public class Database implements DBBehavior {
 
     public void deleteEmployee(long emp_num) {
         //Code to delete employee
-        for (Employee emp :this.employees) {
-            if (emp.getEmpNum() == emp_num)
-                this.employees.remove(emp);
+        this.employees.remove((int) (emp_num-1));
+    }
+
+    public void printAllEmployee(){
+
+        for(Employee emp:this.employees){
+            System.out.println("id: " + emp.getEmpNum() + ",name: " + emp.getName() + ",surname: " + emp.getSurname() + ",salary: " + emp.getSalary());
         }
     }
 
