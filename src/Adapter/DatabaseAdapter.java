@@ -23,14 +23,7 @@ public class DatabaseAdapter implements RecordsBehavior {
 
     @Override
     public boolean isEmployee(long emp_num) {
-        Vector<Employee> employeeVect = (new Database()).getEmployeesDatabase();
-
-        for(int i = 0;i < employeeVect.size(); i++){
-            if (employeeVect.elementAt(i).getEmpNum() == emp_num){
-                return true;
-            }
-        }
-        return false;
+        return this.database.isEmployee(emp_num);
     }
 
     @Override

@@ -41,12 +41,15 @@ public class Database implements DBBehavior {
         }
     }
 
-    public int getTotalEmployee(){
-        return employees.size();
+    public boolean isEmployee(long emp_num){
+        for (Employee emp: this.employees){
+            if (emp.getEmpNum() == emp_num){
+                return true;
+            }
+        }
+        return false;
     }
 
-    public Vector<Employee> getEmployeesDatabase(){
-        return this.employees;
-    }
+
 
 }

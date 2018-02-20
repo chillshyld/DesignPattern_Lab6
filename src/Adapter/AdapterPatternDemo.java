@@ -51,13 +51,5 @@ public class AdapterPatternDemo {
         System.out.println();
 
 
-
-
-
-
-
-
-
-
     }
 }
